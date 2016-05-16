@@ -1,13 +1,20 @@
 # What you added to Udacitask 2.0
 # -------------------------------------------------------
 1. What is the gem of your choice and how did you use it?
+I added artii to create ascii design.
 2. Describe the 2 features you added to the project.
   a) Feature 1...
   b) Feature 2...
+a)I added a feature to change the priority of items.
+b)I added a feature to let a user delete multiple items at a time.
 
 # REFLECTIONS
 # -------------------------------------------------------
 1. How long did you spend working on this project?
+10 hours
 2. What was the most rewarding challenge you conquered?
+My second feature.
 3. What two additional features did you build? Why?
+See above. Nothing else came to mind so I used the ideas provided by Udacity.
 4. Where do you still have room to grow?
+Want to be able to write a complex project like Udacilist from scratch.

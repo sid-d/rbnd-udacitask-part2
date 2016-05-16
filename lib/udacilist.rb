@@ -21,11 +21,20 @@ class UdaciList
     end
   end
 
-  def delete(index)
-    if @items.count < index
-      raise UdaciListErrors::DeleteUnavailableItem , "The item is not available"
+  def delete(*index)
+
+    index.each do |i|
+      if @items.count < i
+        raise UdaciListErrors::DeleteUnavailableItem , "The item(s) is not available"
+      end
     end
-    @items.delete_at(index - 1)
+
+    f = 0
+    index.each do |i|
+      @items.delete_at(i-1-f)
+      f +=1
+    end
+
   end
 
   def all
