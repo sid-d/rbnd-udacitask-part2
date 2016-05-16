@@ -52,3 +52,16 @@ new_list.all
 # DEMO FILTER BY ITEM TYPE
 # ------------------------
 new_list.filter("event")
+
+#my feature 1 - change priority level of items
+new_list.change_priority(3,"low")
+new_list.all #Buy Grocies's priority should change from high to low
+
+#my feature 2 - allow deletion of multiple items
+#new_list.delete([7,8])
+#new_list.all #There should only be 6 items now
+
+
+
+
+

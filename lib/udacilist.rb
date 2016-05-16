@@ -45,4 +45,12 @@ class UdaciList
       puts "There is nothing to show here."
     end
   end
+
+  def change_priority(index,new_priority)
+    if @items[index-1].item_type[0] == "todo"
+      @items[index-1].priority = new_priority
+    else
+      puts "Can't change priority since it's not a todo item"
+    end
+  end
 end
